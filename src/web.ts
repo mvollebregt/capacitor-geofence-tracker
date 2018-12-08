@@ -1,7 +1,6 @@
 import {WebPlugin} from '@capacitor/core';
-import {GeofenceTrackerPlugin} from './definitions';
 
-export class GeofenceTrackerWeb extends WebPlugin implements GeofenceTrackerPlugin {
+export class GeofenceTrackerWeb extends WebPlugin { // implements GeofenceTrackerPlugin {
   constructor() {
     super({
       name: 'GeofenceTracker',
